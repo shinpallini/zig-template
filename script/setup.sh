@@ -14,3 +14,8 @@ sudo tar Jxvf ${FILENAME} -C /usr/local/zig --strip-components 1
 
 # remove download file
 rm ${FILENAME}
+
+# install zig language server
+# git clone --recurse-submodules https://github.com/zigtools/zls ~/zls
+# cd ~/zls
+# zig build -Doptimize=ReleaseSafe
