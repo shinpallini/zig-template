@@ -1,6 +1,6 @@
 {
     "name": "zig-container",
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
     "runArgs": ["--init"],
     "remoteEnv": {
         "PATH": "${containerEnv:PATH}:/usr/local/zig"
