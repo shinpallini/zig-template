@@ -5,6 +5,5 @@
     "runArgs": ["--init"],
     "remoteEnv": {
         "PATH": "${containerEnv:PATH}:/usr/local/zig"
-    },
-    "onCreateCommand": "cd /workspaces/zig/script && bash setup.sh"
+    }
 }
